@@ -1,0 +1,339 @@
+html {
+  background-color: #f4fff8;
+  scroll-behavior: smooth;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #012f3c;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 70px;
+}
+#welcome-section {
+  width: 100%;
+  background-color: #f4fff8;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  position: fixed;
+  background-color: #fff;
+}
+.nav-area li {
+  display: inline-block;
+  padding: 0px 30px;
+  text-transform: uppercase;
+}
+.Home {
+  height: 400px;
+  width: 100%;
+  background-color: #02411c;
+  text-align: center;
+  border-radius: 0% 0% 0% 100%;
+}
+#Home {
+  padding-top: 70px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: #c6ecae;
+}
+#About {
+  margin-top: 100px;
+}
+#About img {
+  width: 400px;
+  height: 300px;
+  margin-left: 35%;
+  opacity: 0.9;
+  border-radius: 40px;
+  box-shadow: 10px 0px 30px #000;
+}
+#About p {
+  text-align: center;
+  font-size: 30px;
+  font-family: Trajan pro;
+  text-transform: lowercase;
+}
+.About {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  padding-top: 30px;
+}
+
+.About h1 {
+  width: 230px;
+  margin-left: 41%;
+  font-size: 30px;
+  text-align: center;
+  border: 5px solid #db161f;
+  border-radius: 20px;
+}
+.About h3 {
+  padding-top: 10px;
+}
+
+.name1 {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto", sans-serif;
+}
+.name2 {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
+#Teachers h2 {
+  width: 300px;
+  margin: 17% 0% 5% 41%;
+  font-size: 29px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #db161f;
+  border: 1px solid #000;
+  border-radius: 20px;
+}
+.director {
+  display: flex;
+  justify-content: space-around;
+}
+.director img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 2px 0px 15px #2e282a;
+}
+.teachers-panel {
+  width: 100%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#teachers img {
+  margin-top: 60px;
+  width: 200px;
+  border-radius: 100px;
+  box-shadow: 2px 0px 15px #2e282a;
+}
+
+#Tour {
+  padding-top: 90px;
+  width: 100%;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+}
+
+.column img {
+  margin: 10px;
+  vertical-align: middle;
+  width: 100px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 50%;
+  }
+}
+
+.Contact .fbbox {
+  height: 80px;
+  width: 80px;
+  border-radius: 25%;
+  text-align: center;
+  font-size: 60px;
+}
+.Contact #fb-photo {
+  height: 40px;
+  width: 40px;
+}
+.Contact {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#Contact h1 {
+  padding-top: 80px;
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+}
+footer {
+  height: 30vh;
+  background-color: #db161f;
+  color: #fff;
+  padding-top: 50px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 40px;
+  font-family: "Roboto", sans-serif;
+}
+footer span {
+  font-size: 25px;
+  color: #0c1713;
+}
+.fbbox {
+  height: 20px;
+  width: 20px;
+}
+#fb-photo {
+  height: 20px;
+  width: 20px;
+}
+#location {
+  height: 40px;
+  width: 50px;
+  margin-left: 20px;
+}
+.location {
+  width: 300px;
+  display: flex;
+  margin-left: 40%;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  color: #db161f;
+
+  border: 1px solid #000;
+  border-radius: 20px;
+}
+.igbox {
+  height: 20px;
+  width: 20px;
+}
+#ig-photo {
+  height: 20px;
+  width: 20px;
+}
+.gmailbox {
+  height: 20px;
+  width: 20px;
+}
+#gmail-photo {
+  height: 20px;
+  width: 20px;
+}
+.linkbox {
+  height: 20px;
+  width: 20px;
+}
+
+#linkphoto {
+  height: 20px;
+  width: 20px;
+}
+.smarafik {
+  display: flex;
+  justify-content: space-around;
+}
+
+.linkbox:hover {
+  transform: scale(145%);
+
+  transition: 0.2s;
+}
+.gmailbox:hover {
+  transform: scale(145%);
+
+  transition: 0.2s;
+}
+.igbox:hover {
+  transform: scale(145%);
+
+  transition: 0.2s;
+}
+.fbbox:hover {
+  transform: scale(145%);
+
+  transition: 0.2s;
+}
+li:hover {
+  background: none;
+  border: 1px solid #ee2e31;
+  border-width: 0px 1px 0px 1px;
+  color: #071e22;
+  transition: 0.3s;
+  transform: scale(105%);
+}
+@media screen and (max-width: 800px) {
+  .nav-area li {
+    padding: 0px 10px;
+  }
+
+  #Home {
+    font-size: 15px;
+  }
+  #About img {
+    width: 200px;
+    height: 150px;
+    margin-left: 25%;
+  }
+  #About p {
+    font-size: 20px;
+  }
+  .About h1 {
+    width: 130px;
+    margin-left: 31%;
+    font-size: 25px;
+  }
+  #Teachers h2 {
+    width: 130px;
+    margin: 17% 0% 5% 31%;
+    font-size: 25px;
+  }
+  .director img {
+    height: 150px;
+    width: 150px;
+  }
+  .name2 {
+    font-size: 10px;
+  }
+  #teachers img {
+    height: 150px;
+    width: 150px;
+    box-shadow: 0.5px 0px 1px #2e282a;
+  }
+  #teachers {
+    display: flex;
+    justify-content: center;
+    padding-left: 0%;
+  }
+  #Contact h1 {
+    font-size: 28px;
+  }
+  .location {
+    margin-left: 10%;
+  }
+  #location {
+    height: 30px;
+    width: 30px;
+    margin-left: 10%;
+  }
+}
