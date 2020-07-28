@@ -1,0 +1,59 @@
+@media screen and (max-width: 768px) {
+  .teachers-panel .column {
+    flex: 50%;
+  }
+  .nav-area li {
+    padding: 0px 10px;
+  }
+  .nav-area li {
+    padding: 0px 10px;
+  }
+
+  #Home {
+    font-size: 15px;
+  }
+  #About img {
+    width: 200px;
+    height: 150px;
+    /*margin-left: 25%;*/
+  }
+  #About p {
+    font-size: 20px;
+  }
+  .About h1 {
+    width: 130px;
+    font-size: 25px;
+  }
+  #Teachers h2 {
+    width: 130px;
+    font-size: 25px;
+  }
+  .director img {
+    height: 150px;
+    width: 150px;
+  }
+  .name2 {
+    font-size: 10px;
+  }
+  #teachers img {
+    height: 150px;
+    width: 150px;
+    box-shadow: 0.5px 0px 1px #2e282a;
+  }
+  #teachers {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #Contact h1 {
+    font-size: 28px;
+  }
+  .location {
+    margin-left: 10%;
+  }
+  #location {
+    height: 30px;
+    width: 30px;
+    margin-left: 10%;
+  }
+}
